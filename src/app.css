@@ -1,1 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@layer base {
+    body {
+        @apply dark:bg-neutral-900 pb-8;
+    }
+}
+
+@theme {
+    --font-sans: "IBM Plex Sans", sans-serif;
+}
+
+@utility debug {
+    @apply border border-red-500;
+}
