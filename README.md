@@ -7,7 +7,7 @@ A simple and minimal portfolio theme
 - Svelte 5
 - TailwindCSS 4
 - TailwindCSS Typography
-- SvelteKit 2
+- SvelteKit 3
 
 ## Features
 
@@ -23,4 +23,4 @@ A simple and minimal portfolio theme
 - Run `npm run dev` to start the development server
 - Make changes to the image and name and other sections as per your need
 - Refer to https://github.com/tailwindlabs/tailwindcss-typography for more detailed typography configuration
-- use latest nodejs LTS when building or deploying 
+- use latest nodejs LTS when building or deploying

@@ -6,7 +6,7 @@
 	<!-- Header -->
 	<section>
 		<section class="flex h-full flex-col md:flex-row md:items-center md:gap-10">
-            <!-- update below image with your image -->
+			<!-- update below image with your image -->
 			<img
 				class="h-32 w-32 rounded-full object-cover"
 				src="https://unsplash.com/photos/tAvpDE7fXgY/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzQyMDQ5MTI0fA&force=true&w=640"
