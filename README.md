@@ -1,26 +1,15 @@
-# Minimal Portfolio Theme
+# Shyam Ram — Timeline
 
-A simple and minimal portfolio theme
+A build-free static personal timeline made with HTML, CSS, and JavaScript.
 
-## Tech Stack
+## Run
 
-- Svelte 5
-- TailwindCSS 4
-- TailwindCSS Typography
-- SvelteKit 3
+Open `index.html` in a browser. No install or build step is needed.
+or run `bun index.html` for dev server.
+  
+## Edit
 
-## Features
-
-- Responsive Design (Mobile, Tablet, Desktop)
-- Auto Dark Mode
-- Extensible
-- Customizable
-
-## Usage
-
-- Clone the repository
-- Install dependencies using `npm install`
-- Run `npm run dev` to start the development server
-- Make changes to the image and name and other sections as per your need
-- Refer to https://github.com/tailwindlabs/tailwindcss-typography for more detailed typography configuration
-- use latest nodejs LTS when building or deploying
+- Add or update timeline entries in `achievements.js`.
+- Update the name, bio, and social links in `index.html`.
+- Replace `static/portrait.jpg` with a portrait of your own.
+- Adjust layout and typography in `styles.css`.

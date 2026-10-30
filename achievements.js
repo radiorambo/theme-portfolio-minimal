@@ -1,4 +1,4 @@
-export const achievements = [
+window.achievements = [
 	{
 		date: '2024',
 		datetime: '2024',

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="A loose timeline of Shyam Ram's work, projects, talks, and learning."
+		/>
+		<meta name="color-scheme" content="light" />
+		<title>Shyam Ram — Timeline</title>
+		<!--<link rel="icon" href="./static/favicon.png" />-->
+		<link rel="stylesheet" href="./styles.css" />
+		<script defer src="./achievements.js"></script>
+		<script defer src="./main.js"></script>
+	</head>
+	<body>
+		<main class="page">
+			<header class="intro">
+				<div class="intro-content">
+					<div class="identity">
+						<h1>Shyam Ram</h1>
+						<p class="role">Backend developer</p>
+					</div>
+
+					<div class="intro-copy">
+						<p>
+							I build reliable systems and useful tools. This is an informal record of work, projects,
+							ideas, and things learned along the way.
+						</p>
+						<nav class="social-links" aria-label="Social links">
+							<a href="mailto:shyam@example.com">Email</a>
+							<a href="https://github.com/example">GitHub</a>
+							<a href="https://www.linkedin.com/in/example">LinkedIn</a>
+							<a href="https://x.com/example">X</a>
+						</nav>
+					</div>
+				</div>
+
+				<!-- Source: Unsplash, photo-1500648767791-00dcc994a43e -->
+				<img
+					class="portrait"
+					src="./static/portrait.jpg"
+					alt="Portrait placeholder from Unsplash"
+					width="900"
+					height="1100"
+				/>
+			</header>
+
+			<section class="timeline-section" aria-labelledby="timeline-title">
+				<div class="section-heading">
+					<div>
+						<h2 id="timeline-title">My Works</h2>
+						<div id="filters" class="filters" role="group" aria-label="Filter achievements by type"></div>
+					</div>
+				</div>
+
+				<noscript>
+					<p class="noscript">Enable JavaScript to load the achievement timeline.</p>
+				</noscript>
+				<ol id="timeline" class="timeline"></ol>
+				<p id="filter-status" class="visually-hidden" aria-live="polite"></p>
+			</section>
+		</main>
+	</body>
+</html>
