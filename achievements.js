@@ -1,3 +1,4 @@
+// Optional per entry: importance: 'high' | 'medium' | 'low' (omitted means pure white).
 window.achievements = [
 	{
 		date: '2024',
