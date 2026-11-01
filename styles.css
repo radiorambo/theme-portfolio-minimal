@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+html {
+	/* Keep the gutter reserved so short filtered lists don't shift the page. */
+	scrollbar-gutter: stable;
+}
+
 body {
 	margin: 0;
 	background: hsl(0 0% 100%);
@@ -66,22 +71,23 @@ button {
 
 h1 {
 	margin-bottom: 0.5rem;
-	font-size: clamp(3.25rem, 8vw, 6.5rem);
+	font-size: clamp(2.25rem, 8vw, 5.5rem);
 	font-weight: 500;
-	letter-spacing: -0.075em;
+	/*letter-spacing: -0.075em;*/
 	line-height: 0.95;
 }
 
 .role {
+    margin-top: 10;
 	margin-bottom: 0;
 	color: var(--ink);
-	font-size: clamp(1.25rem, 2vw, 1.5rem);
+	font-size: clamp(1.5rem, 2vw, 2.5rem);
 	font-weight: 500;
-	letter-spacing: -0.025em;
+	/*letter-spacing: -0.025em;*/
 }
 
 .intro-copy > p {
-	max-width: 42ch;
+	max-width: 52ch;
 	margin-bottom: 1.25rem;
 	font-size: 1.0625rem;
 	line-height: 1.65;
@@ -94,7 +100,7 @@ h1 {
 }
 
 .social-links a {
-	color: var(--muted);
+	color: var(--ink);
 	font-size: 0.9375rem;
 	text-decoration-color: var(--line);
 	text-underline-offset: 0.22em;
@@ -162,6 +168,11 @@ h2 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+/* A lone result spans the full width instead of leaving half the row empty. */
+.timeline:has(> :only-child) {
+	columns: 1;
 }
 
 .event {

@@ -1,153 +1,37 @@
 window.achievements = [
 	{
-		date: '2024',
-		datetime: '2024',
-		type: 'Project',
-		title: 'CloudFramework',
-		context: 'Cloud-native application framework',
-		description:
-			'A framework for scalable web applications, with code generation, HTTP/2, WebSockets, and a built-in router.',
-		href: 'https://github.com/example'
-	},
-	{
-		date: '2023',
-		datetime: '2023',
-		type: 'Work',
-		title: 'Senior Developer Advocate',
-		context: 'TechCorp',
-		href: 'https://example.com'
-	},
-	{
-		date: '2020–2023',
-		datetime: '2023',
-		type: 'Work',
-		title: 'InnovateSoft Solutions',
-		href: 'https://example.com'
-	},
-	{
-		date: '2023',
-		datetime: '2023',
-		type: 'Project',
-		title: 'MicroRouter',
-		context: 'Lightweight routing solution',
-		description: 'A small, efficient router with support for HTTP/2 and WebSockets.',
-		href: 'https://github.com/example'
-	},
-	{
-		date: '2023',
-		datetime: '2023',
-		type: 'Talk',
-		title: 'Modern Web Framework Architecture',
-		context: 'WebCon 2023',
-		href: 'https://example.com/talks'
-	},
-	{
-		date: '2023',
-		datetime: '2023',
-		type: 'Publication',
-		title: 'Modern Web Development Guide',
-		context: 'Co-author',
-		href: 'https://example.com/books'
-	},
-	{
-		date: '2023',
-		datetime: '2023',
-		type: 'Award',
-		title: 'Tech Innovation Award',
-		context: 'Cloud Computing Solutions',
-		href: 'https://example.com/awards'
-	},
-	{
-		date: '2022',
-		datetime: '2022',
-		type: 'Talk',
-		title: 'Cloud-Native Application Development',
-		context: 'DevSummit 2022',
-		href: 'https://example.com/talks'
-	},
-	{
-		date: '2022',
-		datetime: '2022',
-		type: 'Project',
-		title: 'WebStack',
-		context: 'Web development framework',
-		description: 'A framework for building fast, scalable web applications.',
-		href: 'https://example.dev'
-	},
-	{
-		date: '2022',
-		datetime: '2022',
-		type: 'Award',
-		title: 'Outstanding Technical Presentation',
-		context: 'DevCon 2022',
-		href: 'https://example.com/conf'
-	},
-	{
-		date: '2022',
-		datetime: '2022',
-		type: 'Publication',
-		title: 'Cloud Computing Essentials',
-		href: 'https://example.com/books'
-	},
-	{
-		date: '2021',
-		datetime: '2021',
-		type: 'Project',
-		title: 'Dev-preview-tool',
-		context: 'Web app preview and testing',
-		description: 'A quick way to preview and test web apps without setting up a full development environment.',
-		href: 'https://github.com/example'
-	},
-	{
-		date: '2021',
-		datetime: '2021',
-		type: 'Award',
-		title: 'Best Innovation Award',
-		context: 'TechSummit 2021',
-		href: 'https://example.com/conf'
-	},
-	{
-		date: '2021',
-		datetime: '2021',
-		type: 'Publication',
-		title: 'Building Web Services: A Practical Guide',
-		href: 'https://example.com/books'
-	},
-	{
-		date: '2020',
-		datetime: '2020',
-		type: 'Project',
-		title: 'Presentation-toolkit',
-		context: 'Presentation and demo toolkit',
-		description: 'A toolkit for creating presentations and demos.',
-		href: 'https://github.com/example'
-	},
-	{
-		date: '2019',
-		datetime: '2019',
-		type: 'Work',
-		title: 'Independent Consultant'
-	},
-	{
-		date: '2007–2016',
-		datetime: '2016',
-		type: 'Work',
-		title: 'WebTech Systems',
-		href: 'https://example.com'
-	},
-	{
-		date: '2006–2016',
-		datetime: '2016',
-		type: 'Work',
-		title: 'Digital Innovations Inc.'
-	},
-	{
-		date: '2000–2006',
-		datetime: '2006',
-		type: 'Educationrr',
-		title: 'State University of Technology',
-		context: 'M.Sc. Computer Science · 2006',
-		description: 'B.Sc. Software Engineering · 2004',
-		href: 'https://example.edu'
-	}
+		date: '2026',
+		datetime: '2026',
+		type: 'Blog',
+		title: 'Evolution of My Custom Dev Container and the Journey Building It',
+		context: 'How I keep my OS clean while breaking stuff in disposable containers',
+		href: 'https://umeshchatla.substack.com/p/evolution-of-my-custom-dev-container-96a'
+  },
+  {
+    date: '2026',
+    datetime: '2026',
+    type: 'PR',
+    title: 'Merged Pull Request to Fresh',
+    context: 'Fresh is a modern, full-featured terminal text editor and IDE with zero configuration.',
+    description: 'Initializes a documentation site with a dark theme, restructures docs into modular sections, and sets up GitHub Actions to build and deploy to GitHub Pages.',
+    href: 'https://github.com/sinelaw/fresh/pull/844'
+  },
+  {
+    date: '2025',
+    datetime: '2025',
+    type: 'PR',
+    title: 'Merged Pull Request to Libation',
+    context: 'Libation is an open-source Audible library manager.',
+    description: 'Adds a documentation site and homepage with search, themes, navigation, and responsive design.',
+    href: 'https://github.com/rmcrackan/Libation/pull/1498'
+  },
+  {
+    date: '2026',
+    datetime: '2026',
+    type: 'PR',
+    title: 'Merged Pull Request to voxtype',
+    context: 'Voxtype is a push-to-talk voice-to-text tool for Linux, optimized for Wayland.',
+    description: 'Adds a documentation site with custom theming, sidebar navigation, search, and CI/CD deployment to GitHub Pages alongside the existing static site.',
+    href: 'https://github.com/peteonrails/voxtype/pull/179'
+  }
 ];
