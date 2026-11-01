@@ -1,4 +1,3 @@
-// Optional per entry: importance: 'high' | 'medium' | 'low' (omitted means pure white).
 window.achievements = [
 	{
 		date: '2024',
@@ -145,7 +144,7 @@ window.achievements = [
 	{
 		date: '2000–2006',
 		datetime: '2006',
-		type: 'Education',
+		type: 'Educationrr',
 		title: 'State University of Technology',
 		context: 'M.Sc. Computer Science · 2006',
 		description: 'B.Sc. Software Engineering · 2004',

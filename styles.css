@@ -30,8 +30,6 @@ button {
 	--muted: hsl(0 0% 40%);
 	--line: hsl(0 0% 84%);
 	--surface: hsl(0 0% 100%);
-	--surface-medium: hsl(0 0% 97%);
-	--surface-high: hsl(0 0% 94%);
 	max-width: 1120px;
 	margin-inline: auto;
 	padding: clamp(2.5rem, 7vw, 6rem) 2rem 5rem;
@@ -175,14 +173,6 @@ h2 {
 	padding: 1.25rem 1.35rem;
 	border: 1px solid var(--line);
 	background: var(--surface);
-}
-
-.event-card[data-importance='medium'] {
-	background: var(--surface-medium);
-}
-
-.event-card[data-importance='high'] {
-	background: var(--surface-high);
 }
 
 .event:nth-child(4n + 2) .event-card {

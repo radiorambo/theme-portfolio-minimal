@@ -12,7 +12,6 @@ function createEvent(item) {
 
 	const card = document.createElement('article');
 	card.className = 'event-card';
-	card.dataset.importance = item.importance || 'low';
 
 	const meta = document.createElement('div');
 	meta.className = 'event-meta';
