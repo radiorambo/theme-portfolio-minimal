@@ -1,7 +1,3 @@
-# Shyam Ram — Timeline
-
-A build-free static personal timeline made with HTML, CSS, and JavaScript.
-
 ## Run
 
 Open `index.html` in a browser. No install or build step is needed.
